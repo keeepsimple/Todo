@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "e6928006-64e7-4b5f-8a97-57afa2c6d0f6"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -51,7 +54,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/"
+              "node_modules/bootstrap/scss/bootstrap.scss"
 
             ],
             "scripts": []
@@ -96,7 +99,8 @@
               "browserTarget": "Todo-client:build:production"
             },
             "development": {
-              "browserTarget": "Todo-client:build:development"
+              "browserTarget": "Todo-client:build:development",
+              "port": 1999
             }
           },
           "defaultConfiguration": "development"
