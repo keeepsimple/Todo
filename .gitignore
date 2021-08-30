@@ -3,3 +3,12 @@
 ################################################################################
 
 /Todo/.vs/Todo
+/Todo/packages
+/Todo/Todo.Api/bin
+/Todo/Todo.Api/obj/Debug
+/Todo/Todo.Data/bin/Debug
+/Todo/Todo.Data/obj/Debug
+/Todo/Todo.Models/bin/Debug
+/Todo/Todo.Models/obj/Debug
+/Todo/Todo.Services/bin/Debug
+/Todo/Todo.Services/obj/Debug
